@@ -62,8 +62,12 @@ func main() {
 }
 
 func StartScraping() {
-	subjects := colly.NewCollector(colly.AllowedDomains("courses.students.ubc.ca"))
+	subjects := colly.NewCollector(colly.AllowedDomains("courses.students.ubc.ca"), colly.Async(true))
 	count := 0
+
+	subjects.Limit(&colly.LimitRule{
+		Delay: 5 * time.Second,
+	})
 
 	//main page scraper that finds all subjects
 	subjects.OnHTML("tr[class=section1], tr[class=section2]", func(h *colly.HTMLElement) {
@@ -89,6 +93,7 @@ func StartScraping() {
 
 	})
 	subjects.Visit("https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-all-departments")
+	subjects.Wait()
 
 }
 
@@ -147,7 +152,11 @@ func ScrapeSectionPage(url string, section Section) {
 }
 
 func ScrapeSeatsPage(url string, section Section) {
-	seats := colly.NewCollector(colly.AllowedDomains("courses.students.ubc.ca"))
+	seats := colly.NewCollector(colly.AllowedDomains("courses.students.ubc.ca"), colly.Async(true))
+
+	seats.Limit(&colly.LimitRule{
+		Delay: 5 * time.Second,
+	})
 
 	seats.OnHTML("tbody", func(h *colly.HTMLElement) {
 
@@ -161,7 +170,12 @@ func ScrapeSeatsPage(url string, section Section) {
 
 	})
 
+	seats.OnError(func(r *colly.Response, err error) {
+		fmt.Println("Request URL:", r.Request.URL, "failed with response:", r, "\nError:", err)
+	})
+
 	seats.Visit(url)
+	seats.Wait()
 
 	sections = append(sections, section)
 }

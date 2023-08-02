@@ -8,7 +8,7 @@ Days: Mon Wed
 Start Time: 12:00
 End Time: 13:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=001
-Seats Remaining: Total Seats Remaining:30
+Seats Remaining: Total Seats Remaining:33
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
@@ -24,7 +24,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
-Status: Full
+Status: Open
 Section: ANTH 100A D1B
 Type: Discussion
 Term: 1
@@ -32,7 +32,7 @@ Days: Fri
 Start Time: 11:00
 End Time: 12:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D1B
-Seats Remaining: Total Seats Remaining:0
+Seats Remaining: Total Seats Remaining:1
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
@@ -48,7 +48,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
-Status: Full
+Status: Open
 Section: ANTH 100A D1D
 Type: Discussion
 Term: 1
@@ -56,7 +56,7 @@ Days: Fri
 Start Time: 13:00
 End Time: 14:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D1D
-Seats Remaining: Total Seats Remaining:0
+Seats Remaining: Total Seats Remaining:1
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
@@ -92,7 +92,7 @@ Days: Fri
 Start Time: 9:00
 End Time: 10:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D1G
-Seats Remaining: Total Seats Remaining:7
+Seats Remaining: Total Seats Remaining:6
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
@@ -120,7 +120,7 @@ Seats Remaining: Total Seats Remaining:3
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
-Status: Full
+Status: Open
 Section: ANTH 100A D1J
 Type: Discussion
 Term: 1
@@ -128,7 +128,7 @@ Days: Fri
 Start Time: 12:00
 End Time: 13:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D1J
-Seats Remaining: Total Seats Remaining:0
+Seats Remaining: Total Seats Remaining:2
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
@@ -188,7 +188,7 @@ Days: Thu
 Start Time: 18:00
 End Time: 19:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D2B
-Seats Remaining: Total Seats Remaining:8
+Seats Remaining: Total Seats Remaining:7
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
@@ -212,7 +212,7 @@ Days: Fri
 Start Time: 9:00
 End Time: 10:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D2D
-Seats Remaining: 
+Seats Remaining: Total Seats Remaining:5
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
@@ -284,7 +284,7 @@ Days: Fri
 Start Time: 13:00
 End Time: 14:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100B&section=D1E
-Seats Remaining: 
+Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
@@ -300,7 +300,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
-Status: Full
+Status: Open
 Section: ANTH 100B 003
 Type: Lecture
 Term: 2
@@ -308,7 +308,7 @@ Days: Mon Wed
 Start Time: 14:00
 End Time: 15:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100B&section=003
-Seats Remaining: Total Seats Remaining:0
+Seats Remaining: Total Seats Remaining:1
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
@@ -324,7 +324,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
-Status: Full
+Status: Open
 Section: ANTH 100B D3B
 Type: Discussion
 Term: 2
@@ -332,7 +332,7 @@ Days: Fri
 Start Time: 10:00
 End Time: 11:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100B&section=D3B
-Seats Remaining: Total Seats Remaining:0
+Seats Remaining: Total Seats Remaining:1
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
@@ -452,7 +452,7 @@ Days: Fri
 Start Time: 14:00
 End Time: 15:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100B&section=D2F
-Seats Remaining: 
+Seats Remaining: Total Seats Remaining:25
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100C
@@ -464,7 +464,7 @@ Days: Mon Wed
 Start Time: 9:00
 End Time: 10:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100C&section=001
-Seats Remaining: Total Seats Remaining:16
+Seats Remaining: Total Seats Remaining:14
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100C
@@ -524,7 +524,7 @@ Days: Fri
 Start Time: 13:00
 End Time: 14:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100C&section=D1E
-Seats Remaining: Total Seats Remaining:8
+Seats Remaining: Total Seats Remaining:7
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100C
@@ -536,7 +536,7 @@ Days: Fri
 Start Time: 14:00
 End Time: 15:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100C&section=D1F
-Seats Remaining: Total Seats Remaining:6
+Seats Remaining: Total Seats Remaining:5
 -----------------------------------
 Subject: ANTH
 Course: ANTH 201
@@ -548,7 +548,7 @@ Days: Mon Wed Fri
 Start Time: 15:00
 End Time: 16:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=201&section=001
-Seats Remaining: Total Seats Remaining:70
+Seats Remaining: Total Seats Remaining:69
 -----------------------------------
 Subject: ANTH
 Course: ANTH 202B
@@ -576,7 +576,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 203
-Status: Open
+Status: Full
 Section: ANTH 203 002
 Type: Lecture
 Term: 2
@@ -584,7 +584,7 @@ Days: Mon Wed
 Start Time: 14:00
 End Time: 15:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=203&section=002
-Seats Remaining: 
+Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 205
@@ -644,7 +644,7 @@ Days: Tue Thu
 Start Time: 15:30
 End Time: 17:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=213&section=001
-Seats Remaining: Total Seats Remaining:27
+Seats Remaining: Total Seats Remaining:28
 -----------------------------------
 Subject: ANTH
 Course: ANTH 215
@@ -656,7 +656,7 @@ Days: Mon Wed
 Start Time: 14:00
 End Time: 15:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=215&section=001
-Seats Remaining: Total Seats Remaining:82
+Seats Remaining: Total Seats Remaining:81
 -----------------------------------
 Subject: ANTH
 Course: ANTH 217
@@ -668,7 +668,7 @@ Days: Mon Wed
 Start Time: 11:00
 End Time: 12:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=217&section=002
-Seats Remaining: Total Seats Remaining:30
+Seats Remaining: Total Seats Remaining:27
 -----------------------------------
 Subject: ANTH
 Course: ANTH 220
@@ -692,7 +692,7 @@ Days: Mon Wed
 Start Time: 9:30
 End Time: 11:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=227&section=001
-Seats Remaining: Total Seats Remaining:31
+Seats Remaining: Total Seats Remaining:29
 -----------------------------------
 Subject: ANTH
 Course: ANTH 300A
@@ -728,6 +728,18 @@ Days: Tue Thu
 Start Time: 14:00
 End Time: 15:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=303B&section=001
+Seats Remaining: Total Seats Remaining:10
+-----------------------------------
+Subject: ANTH
+Course: ANTH 303C
+Status: Open
+Section: ANTH 303C 001
+Type: Lecture
+Term: 1
+Days: Mon Wed
+Start Time: 15:30
+End Time: 17:00
+URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=303C&section=001
 Seats Remaining: Total Seats Remaining:9
 -----------------------------------
 Subject: ANTH
@@ -872,11 +884,11 @@ Days: Mon Wed
 Start Time: 12:30
 End Time: 14:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=400A&section=001
-Seats Remaining: 
+Seats Remaining: Total Seats Remaining:7
 -----------------------------------
 Subject: ANTH
 Course: ANTH 400A
-Status: Blocked
+Status: Full
 Section: ANTH 400A 002
 Type: Lecture
 Term: 2
@@ -884,11 +896,11 @@ Days: Mon Wed
 Start Time: 12:30
 End Time: 14:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=400A&section=002
-Seats Remaining: 
+Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 407
-Status: Blocked
+Status: Full
 Section: ANTH 407 100
 Type: Lecture
 Term: 1
@@ -912,7 +924,7 @@ Seats Remaining: Total Seats Remaining:10
 -----------------------------------
 Subject: ANTH
 Course: ANTH 427
-Status: Blocked
+Status: Full
 Section: ANTH 427 002
 Type: Lecture
 Term: 1
@@ -1004,6 +1016,42 @@ Days: Mon Wed
 Start Time: 14:00
 End Time: 15:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=437&section=001
+Seats Remaining: Total Seats Remaining:0
+-----------------------------------
+Subject: ANTH
+Course: ANTH 449A
+Status: Blocked
+Section: ANTH 449A 001
+Type: Thesis
+Term: 1
+Days: 
+Start Time: 
+End Time: 
+URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=449A&section=001
+Seats Remaining: Total Seats Remaining:0
+-----------------------------------
+Subject: ANTH
+Course: ANTH 449A
+Status: Blocked
+Section: ANTH 449A 002
+Type: Thesis
+Term: 2
+Days: 
+Start Time: 
+End Time: 
+URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=449A&section=002
+Seats Remaining: Total Seats Remaining:0
+-----------------------------------
+Subject: ANTH
+Course: ANTH 449A
+Status: Blocked
+Section: ANTH 449A 003
+Type: Thesis
+Term: 1-2
+Days: 
+Start Time: 
+End Time: 
+URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=449A&section=003
 Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
@@ -1136,7 +1184,7 @@ Days: Wed
 Start Time: 13:00
 End Time: 16:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=516&section=002
-Seats Remaining: 
+Seats Remaining: Total Seats Remaining:17
 -----------------------------------
 Subject: ANTH
 Course: ANTH 518A
@@ -1172,7 +1220,19 @@ Days: Mon
 Start Time: 10:00
 End Time: 13:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=540B&section=001
-Seats Remaining: 
+Seats Remaining: Total Seats Remaining:12
+-----------------------------------
+Subject: ANTH
+Course: ANTH 545A
+Status: Blocked
+Section: ANTH 545A 003
+Type: Directed Studies
+Term: 1-2
+Days: 
+Start Time: 
+End Time: 
+URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=545A&section=003
+Seats Remaining: Total Seats Remaining:15
 -----------------------------------
 Subject: ANTH
 Course: ANTH 545B
@@ -1209,6 +1269,30 @@ Start Time:
 End Time: 
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=549A&section=001
 Seats Remaining: Total Seats Remaining:35
+-----------------------------------
+Subject: ANTH
+Course: ANTH 549B
+Status: Open
+Section: ANTH 549B 001
+Type: Thesis
+Term: 1
+Days: 
+Start Time: 
+End Time: 
+URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=549B&section=001
+Seats Remaining: Total Seats Remaining:19
+-----------------------------------
+Subject: ANTH
+Course: ANTH 549B
+Status: Open
+Section: ANTH 549B 002
+Type: Thesis
+Term: 2
+Days: 
+Start Time: 
+End Time: 
+URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=549B&section=002
+Seats Remaining: Total Seats Remaining:20
 -----------------------------------
 Subject: ANTH
 Course: ANTH 649
