@@ -18,6 +18,7 @@ type Section struct {
 	status         string
 	section        string
 	activity       string
+	instructor     string
 	term           string
 	days           string
 	start          string
@@ -44,6 +45,7 @@ func main() {
 	for _, section := range sections {
 		f.WriteString("Subject: " + section.subject + "\n")
 		f.WriteString("Course: " + section.course + "\n")
+		f.WriteString("Instructor: " + section.instructor + "\n")
 		f.WriteString("Status: " + section.status + "\n")
 		f.WriteString("Section: " + section.section + "\n")
 		f.WriteString("Type: " + section.activity + "\n")
@@ -66,7 +68,7 @@ func StartScraping() {
 	count := 0
 
 	subjects.Limit(&colly.LimitRule{
-		Delay: 5 * time.Second,
+		Delay: 10 * time.Second,
 	})
 
 	//main page scraper that finds all subjects
@@ -155,18 +157,20 @@ func ScrapeSeatsPage(url string, section Section) {
 	seats := colly.NewCollector(colly.AllowedDomains("courses.students.ubc.ca"), colly.Async(true))
 
 	seats.Limit(&colly.LimitRule{
-		Delay: 5 * time.Second,
+		Delay: 10 * time.Second,
 	})
 
 	seats.OnHTML("tbody", func(h *colly.HTMLElement) {
 
 		firstRow := h.ChildText("tr td:nth-of-type(1)")
-		if !strings.Contains(firstRow, "Total Seats Remaining:") {
-			return
-		}
 
-		seatsRemaining := h.DOM.Children().Eq(0).Text()
-		section.seatsRemaining = seatsRemaining
+		if strings.Contains(firstRow, "Total Seats Remaining:") {
+			seatsRemaining := h.DOM.Children().Eq(0).Text()
+			section.seatsRemaining = seatsRemaining
+		} else if strings.Contains(firstRow, "Instructor:") {
+			instructor := h.DOM.Children().Eq(0).Children().Eq(1).Text()
+			section.instructor = instructor
+		}
 
 	})
 

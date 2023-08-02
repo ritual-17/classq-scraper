@@ -1,5 +1,6 @@
 Subject: ANTH
 Course: ANTH 100A
+Instructor: MENZIES, CHARLES
 Status: Open
 Section: ANTH 100A 001
 Type: Lecture
@@ -8,11 +9,12 @@ Days: Mon Wed
 Start Time: 12:00
 End Time: 13:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=001
-Seats Remaining: Total Seats Remaining:33
+Seats Remaining: Total Seats Remaining:24
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
-Status: Full
+Instructor: TBA
+Status: Open
 Section: ANTH 100A D1A
 Type: Discussion
 Term: 1
@@ -20,11 +22,12 @@ Days: Fri
 Start Time: 10:00
 End Time: 11:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D1A
-Seats Remaining: Total Seats Remaining:0
+Seats Remaining: Total Seats Remaining:1
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
-Status: Open
+Instructor: TBA
+Status: Full
 Section: ANTH 100A D1B
 Type: Discussion
 Term: 1
@@ -32,10 +35,11 @@ Days: Fri
 Start Time: 11:00
 End Time: 12:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D1B
-Seats Remaining: Total Seats Remaining:1
+Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
+Instructor: TBA
 Status: Full
 Section: ANTH 100A D1C
 Type: Discussion
@@ -48,7 +52,8 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
-Status: Open
+Instructor: TBA
+Status: Full
 Section: ANTH 100A D1D
 Type: Discussion
 Term: 1
@@ -56,10 +61,11 @@ Days: Fri
 Start Time: 13:00
 End Time: 14:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D1D
-Seats Remaining: Total Seats Remaining:1
+Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
+Instructor: TBA
 Status: Full
 Section: ANTH 100A D1E
 Type: Discussion
@@ -72,6 +78,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
+Instructor: TBA
 Status: Full
 Section: ANTH 100A D1F
 Type: Discussion
@@ -84,6 +91,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
+Instructor: TBA
 Status: Open
 Section: ANTH 100A D1G
 Type: Discussion
@@ -92,10 +100,11 @@ Days: Fri
 Start Time: 9:00
 End Time: 10:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D1G
-Seats Remaining: Total Seats Remaining:6
+Seats Remaining: Total Seats Remaining:4
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
+Instructor: TBA
 Status: Open
 Section: ANTH 100A D1H
 Type: Discussion
@@ -104,10 +113,11 @@ Days: Fri
 Start Time: 10:00
 End Time: 11:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D1H
-Seats Remaining: Total Seats Remaining:11
+Seats Remaining: Total Seats Remaining:9
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
+Instructor: TBA
 Status: Open
 Section: ANTH 100A D1I
 Type: Discussion
@@ -116,11 +126,12 @@ Days: Fri
 Start Time: 11:00
 End Time: 12:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D1I
-Seats Remaining: Total Seats Remaining:3
+Seats Remaining: Total Seats Remaining:2
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
-Status: Open
+Instructor: TBA
+Status: Full
 Section: ANTH 100A D1J
 Type: Discussion
 Term: 1
@@ -128,10 +139,11 @@ Days: Fri
 Start Time: 12:00
 End Time: 13:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D1J
-Seats Remaining: Total Seats Remaining:2
+Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
+Instructor: TBA
 Status: Full
 Section: ANTH 100A D1K
 Type: Discussion
@@ -144,6 +156,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
+Instructor: TBA
 Status: Open
 Section: ANTH 100A D1L
 Type: Discussion
@@ -156,6 +169,7 @@ Seats Remaining: Total Seats Remaining:13
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
+Instructor: SHIVA, AMIRPOUYAN
 Status: STT
 Section: ANTH 100A 002
 Type: Lecture
@@ -168,6 +182,7 @@ Seats Remaining:
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
+Instructor: TBA
 Status: Full
 Section: ANTH 100A D2A
 Type: Discussion
@@ -180,6 +195,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
+Instructor: TBA
 Status: Open
 Section: ANTH 100A D2B
 Type: Discussion
@@ -188,11 +204,12 @@ Days: Thu
 Start Time: 18:00
 End Time: 19:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D2B
-Seats Remaining: Total Seats Remaining:7
+Seats Remaining: Total Seats Remaining:6
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
-Status: Full
+Instructor: TBA
+Status: Open
 Section: ANTH 100A D2C
 Type: Discussion
 Term: 1
@@ -200,10 +217,11 @@ Days: Fri
 Start Time: 9:00
 End Time: 10:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100A&section=D2C
-Seats Remaining: Total Seats Remaining:0
+Seats Remaining: Total Seats Remaining:2
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100A
+Instructor: TBA
 Status: Open
 Section: ANTH 100A D2D
 Type: Discussion
@@ -216,7 +234,8 @@ Seats Remaining: Total Seats Remaining:5
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
-Status: Full
+Instructor: HAYAT, ZAHRA
+Status: Open
 Section: ANTH 100B 001
 Type: Lecture
 Term: 2
@@ -224,10 +243,11 @@ Days: Tue Thu
 Start Time: 14:00
 End Time: 15:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100B&section=001
-Seats Remaining: Total Seats Remaining:0
+Seats Remaining: Total Seats Remaining:1
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Full
 Section: ANTH 100B D1A
 Type: Discussion
@@ -240,7 +260,8 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
-Status: Open
+Instructor: TBA
+Status: Full
 Section: ANTH 100B D1B
 Type: Discussion
 Term: 2
@@ -248,11 +269,12 @@ Days: Fri
 Start Time: 10:00
 End Time: 11:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100B&section=D1B
-Seats Remaining: Total Seats Remaining:3
+Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
-Status: Full
+Instructor: TBA
+Status: Open
 Section: ANTH 100B D1C
 Type: Discussion
 Term: 2
@@ -260,10 +282,11 @@ Days: Fri
 Start Time: 11:00
 End Time: 12:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100B&section=D1C
-Seats Remaining: Total Seats Remaining:0
+Seats Remaining: Total Seats Remaining:1
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Full
 Section: ANTH 100B D1D
 Type: Discussion
@@ -276,6 +299,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Full
 Section: ANTH 100B D1E
 Type: Discussion
@@ -288,7 +312,8 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
-Status: Full
+Instructor: TBA
+Status: Open
 Section: ANTH 100B D1F
 Type: Discussion
 Term: 2
@@ -296,11 +321,12 @@ Days: Fri
 Start Time: 14:00
 End Time: 15:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100B&section=D1F
-Seats Remaining: Total Seats Remaining:0
+Seats Remaining: Total Seats Remaining:2
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
-Status: Open
+Instructor: ZEWERI, HELENA
+Status: Full
 Section: ANTH 100B 003
 Type: Lecture
 Term: 2
@@ -308,10 +334,11 @@ Days: Mon Wed
 Start Time: 14:00
 End Time: 15:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100B&section=003
-Seats Remaining: Total Seats Remaining:1
+Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Full
 Section: ANTH 100B D3A
 Type: Discussion
@@ -324,7 +351,8 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
-Status: Open
+Instructor: TBA
+Status: Full
 Section: ANTH 100B D3B
 Type: Discussion
 Term: 2
@@ -332,10 +360,11 @@ Days: Fri
 Start Time: 10:00
 End Time: 11:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100B&section=D3B
-Seats Remaining: Total Seats Remaining:1
+Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Full
 Section: ANTH 100B D3C
 Type: Discussion
@@ -348,6 +377,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Full
 Section: ANTH 100B D3D
 Type: Discussion
@@ -360,6 +390,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Full
 Section: ANTH 100B D3E
 Type: Discussion
@@ -372,6 +403,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Full
 Section: ANTH 100B D3F
 Type: Discussion
@@ -384,6 +416,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Open
 Section: ANTH 100B D2A
 Type: Discussion
@@ -396,6 +429,7 @@ Seats Remaining: Total Seats Remaining:25
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Open
 Section: ANTH 100B D2B
 Type: Discussion
@@ -408,6 +442,7 @@ Seats Remaining: Total Seats Remaining:25
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Open
 Section: ANTH 100B D2C
 Type: Discussion
@@ -420,6 +455,7 @@ Seats Remaining: Total Seats Remaining:25
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Open
 Section: ANTH 100B D2D
 Type: Discussion
@@ -432,6 +468,7 @@ Seats Remaining: Total Seats Remaining:25
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Open
 Section: ANTH 100B D2E
 Type: Discussion
@@ -444,6 +481,7 @@ Seats Remaining: Total Seats Remaining:25
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100B
+Instructor: TBA
 Status: Open
 Section: ANTH 100B D2F
 Type: Discussion
@@ -456,6 +494,7 @@ Seats Remaining: Total Seats Remaining:25
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100C
+Instructor: SHIVA, AMIRPOUYAN
 Status: Open
 Section: ANTH 100C 001
 Type: Lecture
@@ -464,10 +503,11 @@ Days: Mon Wed
 Start Time: 9:00
 End Time: 10:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100C&section=001
-Seats Remaining: Total Seats Remaining:14
+Seats Remaining: Total Seats Remaining:7
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100C
+Instructor: TBA
 Status: Full
 Section: ANTH 100C D1A
 Type: Discussion
@@ -480,7 +520,8 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100C
-Status: Full
+Instructor: TBA
+Status: Open
 Section: ANTH 100C D1B
 Type: Discussion
 Term: 1
@@ -488,10 +529,11 @@ Days: Fri
 Start Time: 10:00
 End Time: 11:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100C&section=D1B
-Seats Remaining: Total Seats Remaining:0
+Seats Remaining: Total Seats Remaining:1
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100C
+Instructor: TBA
 Status: Full
 Section: ANTH 100C D1C
 Type: Discussion
@@ -504,6 +546,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100C
+Instructor: TBA
 Status: Open
 Section: ANTH 100C D1D
 Type: Discussion
@@ -512,10 +555,11 @@ Days: Fri
 Start Time: 12:00
 End Time: 13:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100C&section=D1D
-Seats Remaining: Total Seats Remaining:7
+Seats Remaining: Total Seats Remaining:4
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100C
+Instructor: TBA
 Status: Open
 Section: ANTH 100C D1E
 Type: Discussion
@@ -524,10 +568,11 @@ Days: Fri
 Start Time: 13:00
 End Time: 14:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100C&section=D1E
-Seats Remaining: Total Seats Remaining:7
+Seats Remaining: Total Seats Remaining:6
 -----------------------------------
 Subject: ANTH
 Course: ANTH 100C
+Instructor: TBA
 Status: Open
 Section: ANTH 100C D1F
 Type: Discussion
@@ -536,10 +581,11 @@ Days: Fri
 Start Time: 14:00
 End Time: 15:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=100C&section=D1F
-Seats Remaining: Total Seats Remaining:5
+Seats Remaining: Total Seats Remaining:4
 -----------------------------------
 Subject: ANTH
 Course: ANTH 201
+Instructor: RYNIKER, DAVID
 Status: Open
 Section: ANTH 201 001
 Type: Lecture
@@ -548,10 +594,11 @@ Days: Mon Wed Fri
 Start Time: 15:00
 End Time: 16:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=201&section=001
-Seats Remaining: Total Seats Remaining:69
+Seats Remaining: Total Seats Remaining:68
 -----------------------------------
 Subject: ANTH
 Course: ANTH 202B
+Instructor: JING, ZHICHUN
 Status: Open
 Section: ANTH 202B 003
 Type: Lecture
@@ -560,10 +607,11 @@ Days: Mon Wed
 Start Time: 15:30
 End Time: 17:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=202B&section=003
-Seats Remaining: Total Seats Remaining:106
+Seats Remaining: Total Seats Remaining:105
 -----------------------------------
 Subject: ANTH
 Course: ANTH 203
+Instructor: MUEHLMANN, SHAYLIH
 Status: Full
 Section: ANTH 203 001
 Type: Lecture
@@ -576,6 +624,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 203
+Instructor: WAINER, RAFAEL
 Status: Full
 Section: ANTH 203 002
 Type: Lecture
@@ -588,6 +637,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 205
+Instructor: GORDILLO, GASTON
 Status: Open
 Section: ANTH 205 001
 Type: Lecture
@@ -596,10 +646,11 @@ Days: Tue Thu
 Start Time: 11:00
 End Time: 12:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=205&section=001
-Seats Remaining: Total Seats Remaining:30
+Seats Remaining: Total Seats Remaining:29
 -----------------------------------
 Subject: ANTH
 Course: ANTH 206
+Instructor: TBA
 Status: Full
 Section: ANTH 206 001
 Type: Lecture
@@ -612,6 +663,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 206
+Instructor: MAGLIOCCO, SABINA
 Status: Full
 Section: ANTH 206 002
 Type: Lecture
@@ -624,6 +676,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 210
+Instructor: HEATHERINGTON, TRACEY
 Status: Full
 Section: ANTH 210 001
 Type: Lecture
@@ -636,6 +689,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 213
+Instructor: SARI, ELIF
 Status: Open
 Section: ANTH 213 001
 Type: Lecture
@@ -644,10 +698,11 @@ Days: Tue Thu
 Start Time: 15:30
 End Time: 17:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=213&section=001
-Seats Remaining: Total Seats Remaining:28
+Seats Remaining: Total Seats Remaining:23
 -----------------------------------
 Subject: ANTH
 Course: ANTH 215
+Instructor: CREIGHTON, MILLIE
 Status: Open
 Section: ANTH 215 001
 Type: Lecture
@@ -656,10 +711,11 @@ Days: Mon Wed
 Start Time: 14:00
 End Time: 15:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=215&section=001
-Seats Remaining: Total Seats Remaining:81
+Seats Remaining: Total Seats Remaining:80
 -----------------------------------
 Subject: ANTH
 Course: ANTH 217
+Instructor: ROSENBLUM, DAISY
 Status: Open
 Section: ANTH 217 002
 Type: Lecture
@@ -668,10 +724,11 @@ Days: Mon Wed
 Start Time: 11:00
 End Time: 12:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=217&section=002
-Seats Remaining: Total Seats Remaining:27
+Seats Remaining: Total Seats Remaining:19
 -----------------------------------
 Subject: ANTH
 Course: ANTH 220
+Instructor: KRAMER, JENNIFER
 Status: Open
 Section: ANTH 220 002
 Type: Lecture
@@ -680,10 +737,11 @@ Days: Mon Wed
 Start Time: 11:00
 End Time: 12:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=220&section=002
-Seats Remaining: Total Seats Remaining:71
+Seats Remaining: Total Seats Remaining:68
 -----------------------------------
 Subject: ANTH
 Course: ANTH 227
+Instructor: KAMAT, VINAY RAMNATH
 Status: Open
 Section: ANTH 227 001
 Type: Lecture
@@ -692,10 +750,11 @@ Days: Mon Wed
 Start Time: 9:30
 End Time: 11:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=227&section=001
-Seats Remaining: Total Seats Remaining:29
+Seats Remaining: Total Seats Remaining:26
 -----------------------------------
 Subject: ANTH
 Course: ANTH 300A
+Instructor: KAMAT, VINAY RAMNATH
 Status: Blocked
 Section: ANTH 300A 001
 Type: Lecture
@@ -708,6 +767,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 300A
+Instructor: MUEHLMANN, SHAYLIH
 Status: Open
 Section: ANTH 300A 002
 Type: Lecture
@@ -716,10 +776,11 @@ Days: Tue Thu
 Start Time: 11:00
 End Time: 12:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=300A&section=002
-Seats Remaining: Total Seats Remaining:10
+Seats Remaining: Total Seats Remaining:8
 -----------------------------------
 Subject: ANTH
 Course: ANTH 303B
+Instructor: HAYAT, ZAHRA
 Status: Open
 Section: ANTH 303B 001
 Type: Lecture
@@ -728,10 +789,11 @@ Days: Tue Thu
 Start Time: 14:00
 End Time: 15:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=303B&section=001
-Seats Remaining: Total Seats Remaining:10
+Seats Remaining: Total Seats Remaining:5
 -----------------------------------
 Subject: ANTH
 Course: ANTH 303C
+Instructor: HEATHERINGTON, TRACEY
 Status: Open
 Section: ANTH 303C 001
 Type: Lecture
@@ -740,10 +802,11 @@ Days: Mon Wed
 Start Time: 15:30
 End Time: 17:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=303C&section=001
-Seats Remaining: Total Seats Remaining:9
+Seats Remaining: Total Seats Remaining:10
 -----------------------------------
 Subject: ANTH
 Course: ANTH 303D
+Instructor: MENZIES, CHARLES
 Status: Full
 Section: ANTH 303D 002
 Type: Lecture
@@ -756,6 +819,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 307A
+Instructor: 
 Status: Open
 Section: ANTH 307A 001
 Type: Lecture
@@ -764,10 +828,11 @@ Days: Mon Wed
 Start Time: 9:30
 End Time: 11:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=307A&section=001
-Seats Remaining: Total Seats Remaining:15
+Seats Remaining: 
 -----------------------------------
 Subject: ANTH
 Course: ANTH 308
+Instructor: KAMAT, VINAY RAMNATH
 Status: Open
 Section: ANTH 308 002
 Type: Lecture
@@ -776,10 +841,11 @@ Days: Mon Wed
 Start Time: 12:30
 End Time: 14:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=308&section=002
-Seats Remaining: Total Seats Remaining:16
+Seats Remaining: Total Seats Remaining:17
 -----------------------------------
 Subject: ANTH
 Course: ANTH 309
+Instructor: SHNEIDERMAN, SARA
 Status: Full
 Section: ANTH 309 002
 Type: Lecture
@@ -792,6 +858,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 312
+Instructor: SARI, ELIF
 Status: Full
 Section: ANTH 312 001
 Type: Lecture
@@ -804,6 +871,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 317A
+Instructor: MOORE, PATRICK
 Status: Full
 Section: ANTH 317A 001
 Type: Lecture
@@ -816,6 +884,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 331A
+Instructor: LEVELL, NICOLA
 Status: Full
 Section: ANTH 331A 002
 Type: Lecture
@@ -828,6 +897,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 332
+Instructor: ROBERTSON, LESLIE
 Status: Full
 Section: ANTH 332 002
 Type: Seminar
@@ -840,6 +910,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 341C
+Instructor: LEVELL, NICOLA
 Status: Full
 Section: ANTH 341C 001
 Type: Seminar
@@ -852,6 +923,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 351A
+Instructor: RYNIKER, DAVID
 Status: Open
 Section: ANTH 351A 001
 Type: Lecture
@@ -860,10 +932,11 @@ Days: Tue Thu
 Start Time: 12:30
 End Time: 14:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=351A&section=001
-Seats Remaining: Total Seats Remaining:28
+Seats Remaining: Total Seats Remaining:27
 -----------------------------------
 Subject: ANTH
 Course: ANTH 378
+Instructor: TBA
 Status: Full
 Section: ANTH 378 001
 Type: Lecture
@@ -876,6 +949,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 400A
+Instructor: SHNEIDERMAN, SARA
 Status: Open
 Section: ANTH 400A 001
 Type: Lecture
@@ -884,10 +958,11 @@ Days: Mon Wed
 Start Time: 12:30
 End Time: 14:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=400A&section=001
-Seats Remaining: Total Seats Remaining:7
+Seats Remaining: Total Seats Remaining:6
 -----------------------------------
 Subject: ANTH
 Course: ANTH 400A
+Instructor: SHIVA, AMIRPOUYAN
 Status: Full
 Section: ANTH 400A 002
 Type: Lecture
@@ -900,6 +975,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 407
+Instructor: SHIVA, AMIRPOUYAN
 Status: Full
 Section: ANTH 407 100
 Type: Lecture
@@ -912,6 +988,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 418
+Instructor: JING, ZHICHUN
 Status: Open
 Section: ANTH 418 001
 Type: Lecture
@@ -924,6 +1001,7 @@ Seats Remaining: Total Seats Remaining:10
 -----------------------------------
 Subject: ANTH
 Course: ANTH 427
+Instructor: HAYAT, ZAHRA
 Status: Full
 Section: ANTH 427 002
 Type: Lecture
@@ -936,6 +1014,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 430
+Instructor: MENZIES, CHARLES
 Status: Full
 Section: ANTH 430 002
 Type: Lecture
@@ -948,6 +1027,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 431C
+Instructor: LEVELL, NICOLA
 Status: Open
 Section: ANTH 431C 100
 Type: Lecture
@@ -956,10 +1036,11 @@ Days: Tue Thu
 Start Time: 9:30
 End Time: 11:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=431C&section=100
-Seats Remaining: Total Seats Remaining:4
+Seats Remaining: Total Seats Remaining:5
 -----------------------------------
 Subject: ANTH
 Course: ANTH 433A
+Instructor: TBA
 Status: Blocked
 Section: ANTH 433A 001
 Type: Seminar
@@ -972,6 +1053,7 @@ Seats Remaining: Total Seats Remaining:20
 -----------------------------------
 Subject: ANTH
 Course: ANTH 433A
+Instructor: TBA
 Status: Blocked
 Section: ANTH 433A 002
 Type: Seminar
@@ -984,6 +1066,7 @@ Seats Remaining: Total Seats Remaining:45
 -----------------------------------
 Subject: ANTH
 Course: ANTH 433A
+Instructor: TBA
 Status: Blocked
 Section: ANTH 433A 003
 Type: Seminar
@@ -996,6 +1079,7 @@ Seats Remaining: Total Seats Remaining:45
 -----------------------------------
 Subject: ANTH
 Course: ANTH 435
+Instructor: CREIGHTON, MILLIE
 Status: Full
 Section: ANTH 435 002
 Type: Seminar
@@ -1008,7 +1092,8 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 437
-Status: Blocked
+Instructor: HEATHERINGTON, TRACEY
+Status: Full
 Section: ANTH 437 001
 Type: Lecture
 Term: 2
@@ -1020,6 +1105,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 449A
+Instructor: TBA
 Status: Blocked
 Section: ANTH 449A 001
 Type: Thesis
@@ -1032,6 +1118,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 449A
+Instructor: TBA
 Status: Blocked
 Section: ANTH 449A 002
 Type: Thesis
@@ -1044,6 +1131,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 449A
+Instructor: TBA
 Status: Blocked
 Section: ANTH 449A 003
 Type: Thesis
@@ -1056,6 +1144,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 451
+Instructor: SWIERENGA, HEIDI
 Status: Full
 Section: ANTH 451 002
 Type: Lecture
@@ -1068,6 +1157,7 @@ Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 471
+Instructor: BLACKBURN, CAROLE
 Status: Blocked
 Section: ANTH 471 002
 Type: Lecture
@@ -1076,10 +1166,11 @@ Days: Tue Thu
 Start Time: 14:00
 End Time: 15:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=471&section=002
-Seats Remaining: Total Seats Remaining:1
+Seats Remaining: Total Seats Remaining:0
 -----------------------------------
 Subject: ANTH
 Course: ANTH 495A
+Instructor: ALAICA, ALEKSA
 Status: Open
 Section: ANTH 495A 001
 Type: Lecture
@@ -1088,10 +1179,11 @@ Days: Mon
 Start Time: 9:00
 End Time: 12:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=495A&section=001
-Seats Remaining: Total Seats Remaining:3
+Seats Remaining: Total Seats Remaining:2
 -----------------------------------
 Subject: ANTH
 Course: ANTH 495B
+Instructor: GUSTERSON, HUGH PHILLIMORE
 Status: Open
 Section: ANTH 495B 002
 Type: Lecture
@@ -1100,10 +1192,11 @@ Days: Mon Wed
 Start Time: 15:30
 End Time: 17:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=495B&section=002
-Seats Remaining: Total Seats Remaining:33
+Seats Remaining: Total Seats Remaining:31
 -----------------------------------
 Subject: ANTH
 Course: ANTH 495C
+Instructor: MUEHLMANN, SHAYLIH
 Status: Open
 Section: ANTH 495C 001
 Type: Lecture
@@ -1112,10 +1205,11 @@ Days: Wed
 Start Time: 14:00
 End Time: 17:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=495C&section=001
-Seats Remaining: Total Seats Remaining:29
+Seats Remaining: Total Seats Remaining:26
 -----------------------------------
 Subject: ANTH
 Course: ANTH 500
+Instructor: GORDILLO, GASTON
 Status: Blocked
 Section: ANTH 500 001
 Type: Seminar
@@ -1128,6 +1222,7 @@ Seats Remaining: Total Seats Remaining:8
 -----------------------------------
 Subject: ANTH
 Course: ANTH 502B
+Instructor: MENZIES, CHARLES
 Status: Open
 Section: ANTH 502B 001
 Type: Seminar
@@ -1140,6 +1235,7 @@ Seats Remaining: Total Seats Remaining:11
 -----------------------------------
 Subject: ANTH
 Course: ANTH 506A
+Instructor: SARI, ELIF
 Status: Open
 Section: ANTH 506A 100
 Type: Seminar
@@ -1152,6 +1248,7 @@ Seats Remaining: Total Seats Remaining:8
 -----------------------------------
 Subject: ANTH
 Course: ANTH 512B
+Instructor: MOORE, PATRICK
 Status: Open
 Section: ANTH 512B 001
 Type: Lecture
@@ -1160,10 +1257,11 @@ Days: Tue
 Start Time: 14:00
 End Time: 17:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=512B&section=001
-Seats Remaining: Total Seats Remaining:7
+Seats Remaining: Total Seats Remaining:6
 -----------------------------------
 Subject: ANTH
 Course: ANTH 516
+Instructor: GUSTERSON, HUGH PHILLIMORE
 Status: Open
 Section: ANTH 516 001
 Type: Seminar
@@ -1176,7 +1274,8 @@ Seats Remaining: Total Seats Remaining:4
 -----------------------------------
 Subject: ANTH
 Course: ANTH 516
-Status: Open
+Instructor: ROBERTSON, LESLIE
+Status: Cancelled
 Section: ANTH 516 002
 Type: Seminar
 Term: 2
@@ -1184,10 +1283,11 @@ Days: Wed
 Start Time: 13:00
 End Time: 16:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=516&section=002
-Seats Remaining: Total Seats Remaining:17
+Seats Remaining: Total Seats Remaining:20
 -----------------------------------
 Subject: ANTH
 Course: ANTH 518A
+Instructor: KRAMER, JENNIFER
 Status: Blocked
 Section: ANTH 518A 001
 Type: Lecture
@@ -1196,10 +1296,11 @@ Days: Tue
 Start Time: 9:30
 End Time: 12:30
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=518A&section=001
-Seats Remaining: Total Seats Remaining:1
+Seats Remaining: Total Seats Remaining:2
 -----------------------------------
 Subject: ANTH
 Course: ANTH 519
+Instructor: KAMAT, VINAY RAMNATH
 Status: Open
 Section: ANTH 519 002
 Type: Seminar
@@ -1212,6 +1313,7 @@ Seats Remaining: Total Seats Remaining:13
 -----------------------------------
 Subject: ANTH
 Course: ANTH 540B
+Instructor: ZEWERI, HELENA
 Status: Open
 Section: ANTH 540B 001
 Type: Seminar
@@ -1220,10 +1322,11 @@ Days: Mon
 Start Time: 10:00
 End Time: 13:00
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=540B&section=001
-Seats Remaining: Total Seats Remaining:12
+Seats Remaining: Total Seats Remaining:13
 -----------------------------------
 Subject: ANTH
 Course: ANTH 545A
+Instructor: TBA
 Status: Blocked
 Section: ANTH 545A 003
 Type: Directed Studies
@@ -1236,6 +1339,7 @@ Seats Remaining: Total Seats Remaining:15
 -----------------------------------
 Subject: ANTH
 Course: ANTH 545B
+Instructor: TBA
 Status: Blocked
 Section: ANTH 545B 001
 Type: Directed Studies
@@ -1248,6 +1352,7 @@ Seats Remaining: Total Seats Remaining:20
 -----------------------------------
 Subject: ANTH
 Course: ANTH 545B
+Instructor: TBA
 Status: Blocked
 Section: ANTH 545B 002
 Type: Directed Studies
@@ -1260,6 +1365,7 @@ Seats Remaining: Total Seats Remaining:20
 -----------------------------------
 Subject: ANTH
 Course: ANTH 549A
+Instructor: TBA
 Status: Open
 Section: ANTH 549A 001
 Type: Thesis
@@ -1272,6 +1378,7 @@ Seats Remaining: Total Seats Remaining:35
 -----------------------------------
 Subject: ANTH
 Course: ANTH 549B
+Instructor: TBA
 Status: Open
 Section: ANTH 549B 001
 Type: Thesis
@@ -1284,6 +1391,7 @@ Seats Remaining: Total Seats Remaining:19
 -----------------------------------
 Subject: ANTH
 Course: ANTH 549B
+Instructor: TBA
 Status: Open
 Section: ANTH 549B 002
 Type: Thesis
@@ -1296,6 +1404,7 @@ Seats Remaining: Total Seats Remaining:20
 -----------------------------------
 Subject: ANTH
 Course: ANTH 649
+Instructor: TBA
 Status: Open
 Section: ANTH 649 001
 Type: Thesis
@@ -1304,10 +1413,11 @@ Days:
 Start Time: 
 End Time: 
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=649&section=001
-Seats Remaining: Total Seats Remaining:17
+Seats Remaining: Total Seats Remaining:16
 -----------------------------------
 Subject: ANTH
 Course: ANTH 649
+Instructor: TBA
 Status: Open
 Section: ANTH 649 002
 Type: Thesis
@@ -1320,6 +1430,7 @@ Seats Remaining: Total Seats Remaining:20
 -----------------------------------
 Subject: ANTH
 Course: ANTH 649
+Instructor: TBA
 Status: Open
 Section: ANTH 649 003
 Type: Thesis
@@ -1328,5 +1439,5 @@ Days:
 Start Time: 
 End Time: 
 URL: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=ANTH&course=649&section=003
-Seats Remaining: Total Seats Remaining:38
+Seats Remaining: Total Seats Remaining:36
 -----------------------------------
