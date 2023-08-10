@@ -11,13 +11,17 @@ import (
 	"os"
 )
 
+type Courses struct {
+	Courses []Course `json:"courses"`
+}
+
 type Course struct {
 	Name     string    `json:"name"`
 	Sections []Section `json:"sections"`
 }
 
 type Section struct {
-	Section        string `json:"section"`
+	Name           string `json:"name"`
 	Status         string `json:"status"`
 	Activity       string `json:"activity"`
 	Instructor     string `json:"instructor"`
@@ -31,40 +35,47 @@ type Section struct {
 
 var courseList []Course = []Course{}
 
+var errors []string = []string{}
+
 func main() {
 
-	start := time.Now()
+	defer timer()()
 
 	StartScraping()
 
-	courses, err := json.Marshal(courseList)
+	courses := Courses{Courses: courseList}
+
+	coursesJson, err := json.Marshal(courses)
 	if err != nil {
 		fmt.Print(err)
 	}
 
-	os.WriteFile("courses.json", courses, 0644)
+	os.WriteFile("courses.json", coursesJson, 0644)
 
-	elapsed := time.Since(start)
-	fmt.Printf("Time elapsed: %s", elapsed)
+	fmt.Println("Errors:", errors)
 
 }
 
+func timer() func() {
+	start := time.Now()
+	return func() {
+		fmt.Printf("Time elapsed: %v", time.Since(start))
+	}
+}
+
 func StartScraping() {
-	subjects := colly.NewCollector(colly.AllowedDomains("courses.students.ubc.ca"), colly.Async(true))
-	count := 0
+	subjects := colly.NewCollector(
+		colly.AllowedDomains("courses.students.ubc.ca"),
+		colly.Async(true),
+	)
 
 	subjects.Limit(&colly.LimitRule{
-		Delay: 10 * time.Second,
+		Parallelism: 2,
+		RandomDelay: 10 * time.Second,
 	})
 
 	//main page scraper that finds all subjects
 	subjects.OnHTML("tr[class=section1], tr[class=section2]", func(h *colly.HTMLElement) {
-		count++
-
-		//look at every 20th subject for testing purposes
-		if count%20 != 0 {
-			return
-		}
 
 		//course.subject = h.ChildText("tr td:nth-of-type(1)")
 		fmt.Println("Now visiting: " + h.ChildText("tr td:nth-of-type(1)"))
@@ -74,11 +85,9 @@ func StartScraping() {
 			coursePage = e.Attr("href")
 		})
 
-		if coursePage == "" {
-			return
+		if coursePage != "" {
+			ScrapeCoursePage(h.Request.AbsoluteURL(coursePage))
 		}
-
-		ScrapeCoursePage(h.Request.AbsoluteURL(coursePage))
 
 	})
 	subjects.Visit("https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-all-departments")
@@ -87,10 +96,14 @@ func StartScraping() {
 }
 
 func ScrapeCoursePage(url string) {
-	courses := colly.NewCollector(colly.AllowedDomains("courses.students.ubc.ca"), colly.Async(true))
+	courses := colly.NewCollector(
+		colly.AllowedDomains("courses.students.ubc.ca"),
+		colly.Async(true),
+	)
 
 	courses.Limit(&colly.LimitRule{
-		Delay: 10 * time.Second,
+		Parallelism: 2,
+		Delay:       10 * time.Second,
 	})
 
 	courses.OnHTML("tr[class=section1], tr[class=section2]", func(h *colly.HTMLElement) {
@@ -117,16 +130,20 @@ func ScrapeCoursePage(url string) {
 }
 
 func ScrapeSectionPage(url string, course Course) Course {
-	sections := colly.NewCollector(colly.AllowedDomains("courses.students.ubc.ca"), colly.Async(true))
+	sections := colly.NewCollector(
+		colly.AllowedDomains("courses.students.ubc.ca"),
+		colly.Async(true),
+	)
 
 	sections.Limit(&colly.LimitRule{
-		Delay: 10 * time.Second,
+		Parallelism: 2,
+		Delay:       10 * time.Second,
 	})
 
 	sections.OnHTML("tr[class=section1], tr[class=section2]", func(h *colly.HTMLElement) {
 		var section Section
 		section.Status = h.ChildText("tr td:nth-of-type(1)")
-		section.Section = h.ChildText("tr td:nth-of-type(2)")
+		section.Name = h.ChildText("tr td:nth-of-type(2)")
 		section.Activity = h.ChildText("tr td:nth-of-type(3)")
 		section.Term = h.ChildText("tr td:nth-of-type(4)")
 		section.Days = h.ChildText("tr td:nth-of-type(7)")
@@ -144,7 +161,29 @@ func ScrapeSectionPage(url string, course Course) Course {
 		}
 
 		section.SeatsURL = h.Request.AbsoluteURL(seatsPage)
-		course.Sections = append(course.Sections, ScrapeSeatsPage(section.SeatsURL, section, course))
+		updatedSection := ScrapeSeatsPage(section.SeatsURL, section, course)
+
+		success := false
+
+		for i := 1; i < 4; i++ {
+			if updatedSection.SeatsRemaining != "Error" {
+				if i != 1 {
+					fmt.Println("Success:", section.Name)
+				}
+				success = true
+				break
+			}
+			fmt.Println("Retry number:", i)
+			time.Sleep(1 * time.Second)
+			updatedSection = ScrapeSeatsPage(section.SeatsURL, section, course)
+		}
+
+		if !success {
+			errors = append(errors, section.Name)
+			fmt.Println("Failed:", section.Name)
+		}
+
+		course.Sections = append(course.Sections, updatedSection)
 	})
 
 	sections.Visit(url)
@@ -154,10 +193,14 @@ func ScrapeSectionPage(url string, course Course) Course {
 }
 
 func ScrapeSeatsPage(url string, section Section, course Course) Section {
-	seats := colly.NewCollector(colly.AllowedDomains("courses.students.ubc.ca"), colly.Async(true))
+	seats := colly.NewCollector(
+		colly.AllowedDomains("courses.students.ubc.ca"),
+		colly.Async(true),
+	)
 
 	seats.Limit(&colly.LimitRule{
-		Delay: 10 * time.Second,
+		Parallelism: 2,
+		Delay:       10 * time.Second,
 	})
 
 	seats.OnHTML("tbody", func(h *colly.HTMLElement) {
@@ -175,7 +218,9 @@ func ScrapeSeatsPage(url string, section Section, course Course) Section {
 	})
 
 	seats.OnError(func(r *colly.Response, err error) {
-		fmt.Println("Request URL:", r.Request.URL, "failed with response:", r, "\nError:", err)
+		//fmt.Println("Request URL:", r.Request.URL, "failed with response:", r, "\nError:", err)
+		fmt.Println("Error:", section.Name)
+		section.SeatsRemaining = "Error"
 	})
 
 	seats.Visit(url)
