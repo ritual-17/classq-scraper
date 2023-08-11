@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gocolly/colly"
+	"github.com/gocolly/colly/v2"
 
 	"os"
 )
@@ -37,6 +37,14 @@ var courseList []Course = []Course{}
 
 var errors []string = []string{}
 
+var e = 0
+
+var c *colly.Collector = colly.NewCollector(
+	colly.AllowedDomains("courses.students.ubc.ca"),
+	colly.Async(true),
+	colly.CheckHead(),
+)
+
 func main() {
 
 	defer timer()()
@@ -53,6 +61,7 @@ func main() {
 	os.WriteFile("courses.json", coursesJson, 0644)
 
 	fmt.Println("Errors:", errors)
+	fmt.Println("Number of errors:", len(errors))
 
 }
 
@@ -63,22 +72,32 @@ func timer() func() {
 	}
 }
 
+func errorCheck() {
+	e++
+	if e > 10 {
+		fmt.Println("10 ERRORS, sleeping for 5 seconds------------------------------------------------------------------------")
+		time.Sleep(5 * time.Second)
+		e = 0
+	}
+}
+
 func StartScraping() {
-	subjects := colly.NewCollector(
-		colly.AllowedDomains("courses.students.ubc.ca"),
-		colly.Async(true),
-	)
+	subjects := c.Clone()
+	count := 0
 
 	subjects.Limit(&colly.LimitRule{
-		Parallelism: 2,
-		RandomDelay: 10 * time.Second,
+		Delay: 10 * time.Second,
 	})
 
 	//main page scraper that finds all subjects
 	subjects.OnHTML("tr[class=section1], tr[class=section2]", func(h *colly.HTMLElement) {
-
+		count++
 		//course.subject = h.ChildText("tr td:nth-of-type(1)")
-		fmt.Println("Now visiting: " + h.ChildText("tr td:nth-of-type(1)"))
+		//fmt.Println("Now visiting: " + h.ChildText("tr td:nth-of-type(1)"))
+
+		if count > 100 {
+			return
+		}
 
 		var coursePage string
 		h.ForEach("a", func(_ int, e *colly.HTMLElement) {
@@ -90,16 +109,20 @@ func StartScraping() {
 		}
 
 	})
+
+	subjects.OnError(func(r *colly.Response, err error) {
+		fmt.Println("Error on Subjects page: ", r, "------", err, "----------")
+		errorCheck()
+	})
+
 	subjects.Visit("https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-all-departments")
 	subjects.Wait()
 
 }
 
 func ScrapeCoursePage(url string) {
-	courses := colly.NewCollector(
-		colly.AllowedDomains("courses.students.ubc.ca"),
-		colly.Async(true),
-	)
+
+	courses := c.Clone()
 
 	courses.Limit(&colly.LimitRule{
 		Parallelism: 2,
@@ -124,16 +147,19 @@ func ScrapeCoursePage(url string) {
 
 	})
 
+	courses.OnError(func(r *colly.Response, err error) {
+		fmt.Println("Error on Courses page: ", r.Request.URL, "----------------")
+		errorCheck()
+	})
+
 	courses.Visit(url)
 	courses.Wait()
 
 }
 
 func ScrapeSectionPage(url string, course Course) Course {
-	sections := colly.NewCollector(
-		colly.AllowedDomains("courses.students.ubc.ca"),
-		colly.Async(true),
-	)
+	time.Sleep(250 * time.Millisecond)
+	sections := c.Clone()
 
 	sections.Limit(&colly.LimitRule{
 		Parallelism: 2,
@@ -165,6 +191,7 @@ func ScrapeSectionPage(url string, course Course) Course {
 
 		success := false
 
+		//retries 3 times if the request fails
 		for i := 1; i < 4; i++ {
 			if updatedSection.SeatsRemaining != "Error" {
 				if i != 1 {
@@ -186,6 +213,10 @@ func ScrapeSectionPage(url string, course Course) Course {
 		course.Sections = append(course.Sections, updatedSection)
 	})
 
+	sections.OnError(func(r *colly.Response, err error) {
+		fmt.Println("Error on Sections page for: ", course.Name, "----------------")
+		errorCheck()
+	})
 	sections.Visit(url)
 	sections.Wait()
 
@@ -193,10 +224,8 @@ func ScrapeSectionPage(url string, course Course) Course {
 }
 
 func ScrapeSeatsPage(url string, section Section, course Course) Section {
-	seats := colly.NewCollector(
-		colly.AllowedDomains("courses.students.ubc.ca"),
-		colly.Async(true),
-	)
+	time.Sleep(250 * time.Millisecond)
+	seats := c.Clone()
 
 	seats.Limit(&colly.LimitRule{
 		Parallelism: 2,
@@ -219,8 +248,9 @@ func ScrapeSeatsPage(url string, section Section, course Course) Section {
 
 	seats.OnError(func(r *colly.Response, err error) {
 		//fmt.Println("Request URL:", r.Request.URL, "failed with response:", r, "\nError:", err)
-		fmt.Println("Error:", section.Name)
+		fmt.Println("Error on Seats page for:", section.Name, "----------------")
 		section.SeatsRemaining = "Error"
+		errorCheck()
 	})
 
 	seats.Visit(url)
